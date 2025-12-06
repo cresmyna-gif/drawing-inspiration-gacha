@@ -22,7 +22,9 @@ const inspirations = [
     "一顆星星",
     "一枚明月",
     "晴朗的天空",
-    "一片雲"
+    "一片雲",
+    "你現在想吃的食物",
+    "一種美味的水果",
 ];
 
 // 2. 獲取 HTML 中的元素
@@ -44,6 +46,7 @@ rollButton.addEventListener('click', function() {
         displayArea.style.transform = 'scale(1)';
     }, 100);
 });
+
 
 
 
