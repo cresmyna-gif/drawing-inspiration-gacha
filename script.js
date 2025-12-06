@@ -29,7 +29,7 @@ const inspirations = [
     "一條清澈的小溪",
     "一片海",
     "一片美麗海灘",
-    "一片明朗的沙灘"
+    "一片明朗的沙灘",
     "你現在想吃的食物",
     "一種美味的水果",
     "一隻在湖中悠哉游泳的水鳥，畫好多隻也可以啦~",
@@ -57,6 +57,7 @@ rollButton.addEventListener('click', function() {
         displayArea.style.transform = 'scale(1)';
     }, 100);
 });
+
 
 
 
