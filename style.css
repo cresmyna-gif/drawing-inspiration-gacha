@@ -1,0 +1,43 @@
+body {
+    font-family: sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
+}
+
+.container {
+    text-align: center;
+    background-color: white;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    width: 80%;
+    max-width: 400px;
+}
+
+#inspirationDisplay {
+    font-size: 1.2em;
+    margin-top: 20px;
+    padding: 20px;
+    background-color: #e9e9e9;
+    border-radius: 10px;
+    min-height: 1.5em; /* 避免內容改變時頁面跳動 */
+}
+
+#rollButton {
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 1em;
+    background-color: #ff4d4d;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#rollButton:hover {
+    background-color: #e60000;
+}
