@@ -16,7 +16,8 @@ const inspirations = [
     "一座瀑布",
     "一杯咖啡",
     "一杯茶",
-    "一壺茶壺"
+    "一壺茶壺",
+    "一棟你夢寐以求的房子"
 ];
 
 // 2. 獲取 HTML 中的元素
@@ -38,5 +39,6 @@ rollButton.addEventListener('click', function() {
         displayArea.style.transform = 'scale(1)';
     }, 100);
 });
+
 
 
