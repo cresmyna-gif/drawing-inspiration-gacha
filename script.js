@@ -1,6 +1,6 @@
 // 1. 定義您的靈感列表 (可以在這裡盡情發揮創意)
 const inspirations = [
-        "一隻在太空旅行的貓咪",
+    "一隻在太空旅行的貓咪",
     "你最喜歡的食物",
     "一個機器人在雨中撐傘的場景",
     "用三種顏色畫出你的夢想",
@@ -57,6 +57,7 @@ rollButton.addEventListener('click', function() {
         displayArea.style.transform = 'scale(1)';
     }, 100);
 });
+
 
 
 
