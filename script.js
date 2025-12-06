@@ -17,7 +17,12 @@ const inspirations = [
     "一杯咖啡",
     "一杯茶",
     "一壺茶壺",
-    "一棟你夢寐以求的房子"
+    "一棟你夢寐以求的房子",
+    "夜空",
+    "一顆星星",
+    "一枚明月",
+    "晴朗的天空",
+    "一片雲"
 ];
 
 // 2. 獲取 HTML 中的元素
@@ -39,6 +44,7 @@ rollButton.addEventListener('click', function() {
         displayArea.style.transform = 'scale(1)';
     }, 100);
 });
+
 
 
 
