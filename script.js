@@ -25,6 +25,7 @@ const inspirations = [
     "一片雲",
     "你現在想吃的食物",
     "一種美味的水果",
+    "一隻在湖中悠哉游泳的水鳥，畫好多隻也可以啦~"
 ];
 
 // 2. 獲取 HTML 中的元素
@@ -46,6 +47,7 @@ rollButton.addEventListener('click', function() {
         displayArea.style.transform = 'scale(1)';
     }, 100);
 });
+
 
 
 
