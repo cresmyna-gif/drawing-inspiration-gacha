@@ -48,6 +48,10 @@ rollButton.addEventListener('click', function() {
     const randomIndex = Math.floor(Math.random() * inspirations.length);
     const selectedInspiration = inspirations[randomIndex];
 
+    // --- 將新靈感加入歷史紀錄清單 ---
+    addHistoryEntry(selectedInspiration);
+    // ------------------------------------
+
     // 更新顯示區域的文字
     displayArea.textContent = selectedInspiration;
     
@@ -59,10 +63,16 @@ rollButton.addEventListener('click', function() {
 });
 
 
-
-
-
-
-
-
-
+// 一個專門處理添加歷史紀錄的函式
+function addHistoryEntry(inspirationText) {
+    const newItem = document.createElement('li'); // 建立一個新的清單項目 <li>
+    newItem.textContent = inspirationText;        // 設定清單項目的文字內容
+    
+    // 將新項目插入到清單的最前面 (unshift 的概念)
+    historyList.insertBefore(newItem, historyList.firstChild);
+    
+    // (可選) 限制歷史紀錄的數量，避免列表過長
+    if (historyList.children.length > 10) {
+        historyList.removeChild(historyList.lastChild);
+    }
+}
